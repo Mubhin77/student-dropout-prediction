@@ -1,0 +1,54 @@
+{
+    "project": "Student Dropout Prediction",
+    "model_name": "Final Logistic Regression",
+    "model_type": "Logistic Regression",
+    "target_mapping": {
+        "0": "Graduate",
+        "1": "Dropout"
+    },
+    "features": [
+        "Marital status",
+        "Application mode",
+        "Application order",
+        "Course",
+        "Daytime/evening attendance",
+        "Previous qualification",
+        "Nacionality",
+        "Mother's qualification",
+        "Father's qualification",
+        "Mother's occupation",
+        "Father's occupation",
+        "Displaced",
+        "Educational special needs",
+        "Debtor",
+        "Tuition fees up to date",
+        "Gender",
+        "Scholarship holder",
+        "International",
+        "Previous qualification (grade)",
+        "Admission grade",
+        "Age at enrollment",
+        "Unemployment rate",
+        "Inflation rate",
+        "GDP"
+    ],
+    "number_of_features": 24,
+    "training_records": 2904,
+    "testing_records": 726,
+    "decision_threshold": 0.5,
+    "random_state": 42,
+    "model_parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "max_iter": 2000
+    },
+    "test_metrics": {
+        "Accuracy": 0.7837,
+        "Precision": 0.751,
+        "Recall": 0.669,
+        "F1 Score": 0.7076,
+        "ROC-AUC": 0.8535,
+        "PR-AUC": 0.8201
+    },
+    "evaluation_date": "2026-11-20T09:14:08.245198"
+}
