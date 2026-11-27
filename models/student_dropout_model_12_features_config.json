@@ -1,0 +1,32 @@
+{
+    "model_name": "Logistic Regression",
+    "target": "Target",
+    "positive_class": "Dropout",
+    "positive_class_encoding": 1,
+    "decision_threshold": 0.4,
+    "selected_features": [
+        "Tuition fees up to date",
+        "Course",
+        "Scholarship holder",
+        "Application mode",
+        "Age at enrollment",
+        "Previous qualification (grade)",
+        "Debtor",
+        "Gender",
+        "Admission grade",
+        "Mother's occupation",
+        "Father's occupation",
+        "Unemployment rate"
+    ],
+    "number_of_features": 12,
+    "training_records": 2904,
+    "test_records": 726,
+    "metrics": {
+        "accuracy": 0.7658,
+        "dropout_precision": 0.6839,
+        "dropout_recall": 0.7465,
+        "dropout_f1": 0.7138,
+        "roc_auc": 0.8539,
+        "pr_auc": 0.8228
+    }
+}
